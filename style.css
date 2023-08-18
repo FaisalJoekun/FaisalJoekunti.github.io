@@ -1,0 +1,32 @@
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+animation: fadein 2s;
+}
+.awal{
+    text-align: center;
+    margin: auto;
+}
+a button{
+    border-color: black;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+
+    } 100% {
+        opacity: 1;
+    }
+}
+.secret a button{
+    border-color: transparent;
+    width: 25px;
+    height: 10px;
+}
+.secret{
+    text-align: center;
+    margin: auto;
+    
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semoga cepet sembuh yaa :)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://media.giphy.com/media/qfQgXxBz1nvWEbOxyb/giphy.gif">
+</head>
+<body>
+    <h1 class="awal">semoga cepet sembuh yaaa :(</h1>
+    <div class="awal">
+        <img class="awal" src="https://media.giphy.com/media/YNlLqRY23XBjW/giphy.gif" alt="" width="300px"><br>
+        sipa masih pengen lanjut atau istirahat dulu?<br><br> 
+
+        <a href="baik.html" id="remove"><button>lanjuttt</button></a><br><br>
+        <a href="#" onclick="yakin()" id="remove"><button>istirahat duluu deh </button></a>
+        <span id="tanya"></span>
+        <span id="tanya1"></span>
+        <span id="tanya2"></span>
+    </div>
+
+    <script>
+        function yakin(){
+            document.getElementById("remove").remove();
+            document.getElementById("remove").remove();
+            document.getElementById("tanya").innerHTML = "<br>yakin nggak?<br><br>";
+            document.getElementById("tanya1").innerHTML = "<a href='https://wa.me/+6282177646197?text=aku+istirahat+dulu+ya'><button>Iyaa yakin</button></a>";
+            document.getElementById("tanya2").innerHTML = "<a href='baik.html'><button>Nggak jadi deh</button></a>";
+        }
+    </script>
+</body>
+</html>
